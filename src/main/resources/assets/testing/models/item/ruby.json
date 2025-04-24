@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "testing:item/ruby"
+    "layer0": "testing:item/ruby.png"
   }
 }
