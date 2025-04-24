@@ -22,7 +22,7 @@
 			"pain.TestingDataGenerator"
 		],
 		"client": [
-			"pain.TestingClienta"
+			"pain.TestingClient"
 		]
 	},
 	"mixins": [
