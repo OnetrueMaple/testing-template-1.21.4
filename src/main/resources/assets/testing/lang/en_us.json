@@ -1,3 +1,6 @@
 {
-  "item.testing.ruby": "Ruby"
+  "item.testing.ruby": "Ruby",
+  "block.testing.ruby_block": "Block of Ruby",
+  "block.testing.ruby_ore": "Ruby Ore",
+  "block.testing.deepslate_ruby_ore": "Deepslate Ruby Ore"
 }

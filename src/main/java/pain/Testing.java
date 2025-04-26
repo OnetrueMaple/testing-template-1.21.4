@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pain.block.ModBlocks;
 import pain.item.ModItems;
 
 public class Testing implements ModInitializer {
@@ -13,5 +14,6 @@ public class Testing implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
