@@ -7,12 +7,21 @@
     "minecraft:item_damage": [
       {
         "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": -4.0,
-            "per_level_above_first": -4.0
-          }
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+            "type": "minecraft:remove_binomial",
+            "chance": 1.0
+            },
+            {
+              "type": "minecraft:add",
+              "value": {
+                "type": "minecraft:linear",
+                "base": -2.0,
+                "per_level_above_first": -2.0
+              }
+            }
+          ]
         }
       }
     ]
@@ -31,5 +40,5 @@
     "any"
   ],
   "supported_items": "#minecraft:enchantable/durability",
-  "weight": 8
+  "weight": 4
 }
